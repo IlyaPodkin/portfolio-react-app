@@ -1,10 +1,13 @@
-import Header from './components/NavigationBar';
-import './components/styles/main.css';
+import React from "react";
+import NavigationBar from "./components/NavigationBar";
+import HelloContainer from "./components/HelloContainer";
+import "./styles/main.css";
 
 function App() {
   return (
-    <div className='main'>
-      <Header></Header>
+    <div className="main">
+      <NavigationBar />
+      <HelloContainer />
     </div>
   );
 }

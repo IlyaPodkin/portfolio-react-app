@@ -1,0 +1,27 @@
+.hello-container {
+    max-width: 1200px;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 600px;
+    width: 80%;
+    margin: 20px 0 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
+}
+
+.hello {
+    font-size: 40pt;
+    font-weight: bolder;
+}
+
+.time-to-meet {
+    font-size: 30pt;
+}
+
+span {
+    margin: 10px;
+}
