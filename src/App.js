@@ -1,4 +1,4 @@
-import Header from './layout/NavigationBar';
+import Header from './components/NavigationBar';
 import './components/styles/main.css';
 
 function App() {
