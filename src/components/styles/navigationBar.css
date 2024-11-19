@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-.navigation-bar
-{
+/* Панель навигации */
+.navigation-bar {
   flex-wrap: wrap;
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -21,7 +19,7 @@
 }
 
 /* Кнопки навигации */
-.button-link{
+.button-link {
   border: none;
   height: 40px;
   width: auto;
@@ -30,7 +28,7 @@
   text-align: center;
   padding: 5px 15px;
   margin: 5px;
-  transition: background-color 0.3s ease, transform 0.2s ease; 
+  transition: background-color 0.3s ease, transform 0.2s ease;
   border-radius: 50px;
   font-family: "Montserrat", serif;
   border-color: rgb(63, 63, 63);
@@ -42,9 +40,12 @@
   box-shadow: 1px 1px 10px 10px rgb(196, 196, 196);
   cursor: pointer;
 }
-.button-link:hover{
+/* Поведение кнопки при наведении курсора */
+.button-link:hover {
   background-color: rgb(0, 0, 0);
 }
-.button-link:active{
+/* Поведение кнопки при нажатии */
+.button-link:active {
   transform: scale(0.95);
 }
+

@@ -1,5 +1,5 @@
-import './App.css';
-import Header from './layout/Header';
+import Header from './layout/NavigationBar';
+import './components/styles/main.css';
 
 function App() {
   return (

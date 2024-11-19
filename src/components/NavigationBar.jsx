@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/header.css";
+import "./styles/navigationBar.css";
 
-const Header = () => {
+const NavigationBar = () => {
     return (
         <div className="navigation-bar" id="navigation-bar">
             <button className="button-link">Обо мне</button>
@@ -14,4 +14,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default NavigationBar;
