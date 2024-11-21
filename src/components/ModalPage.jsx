@@ -3,6 +3,8 @@ import "./../styles/modal-page.css";
 import BarsInformation from "./ExperienceComponets/BarsInformation";
 import XFiveInformation from "./ExperienceComponets/XFiveInformation";
 import UnknownInformation from "./ExperienceComponets/UnknownInformation";
+import FirstEdication from "./EdicationComponents/FirstEdication";
+import SecondEdication from "./EdicationComponents/SecondEdication";
 
 const ModalPage = ({ isVisible, closeModalWindow, modalContent }) => {
 
@@ -20,6 +22,10 @@ const ModalPage = ({ isVisible, closeModalWindow, modalContent }) => {
                 return <XFiveInformation />;
             case "unknown":
                 return <UnknownInformation />;
+            case "firstEdication":
+                return <FirstEdication />;
+            case "secondEdication":
+                return <SecondEdication />;
             default:
                 return <p>Информация еще не добавлена</p>;
         }
