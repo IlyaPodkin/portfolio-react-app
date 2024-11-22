@@ -5,6 +5,7 @@ import AboutMyself from "./components/AboutMyself";
 import PlacesOfWork from "./components/PlacesOfWork";
 import ModalPage from "./components/ModalPage";
 import Education from "./components/Education";
+import Skills from "./components/Skills";
 import "./styles/main.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <AboutMyself />
       <PlacesOfWork/>
       <ModalPage />
+      <Skills/>
       <Education/>
     </div>
   );

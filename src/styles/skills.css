@@ -1,0 +1,40 @@
+/* Главный контейнер */
+.skills-container{
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 30px;
+}
+/* Контейнер для разделов*/
+.elements-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+
+}
+/* Порядковый номер раздела */
+.number-container{
+    font-size: 80pt;
+    margin: 0px 20px 0px 20px;
+}
+/* Заголовок раздела */
+.skills-header{
+    text-align: center;
+    font-size: 30pt;
+}
+/* Информация о разделе */
+.info-container{
+    margin: 0px 20px 0px 20px;
+    flex-grow: 1;
+}
+/* Фото в разделе */
+.photo-container{
+    margin: 0px 20px 0px 20px;
+}

@@ -10,11 +10,10 @@ const AboutMyself = () => {
             </div>
             <div className="basic-information">
                 <h2>Обо мне</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-                    omnis itaque aspernatur quis? Voluptate voluptates earum animi aut non!
-                    Iure perferendis autem animi similique in reiciendis eum nihil illum,
-                    natus accusamus omnis commodi corrupti nulla! Dolores esse ea enim odio!
-                    Repudiandae voluptates modi magni iure repellendus nam perspiciatis, harum dolore.
+                <p>Ищу позицию C# разработчика или Full-stack разработчика, 
+                    чтобы применить и развить навыки в разработке веб- и 
+                    desktop-приложений, используя C#, ASP.NET Core, React и 
+                    сопутствующие технологии.
                 </p>
             </div>
         </div>
