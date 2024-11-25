@@ -8,6 +8,8 @@
     flex-direction: column;
     margin: 20px;
     border-radius: 30px;
+    box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
+
 }
 /* Контейнер для разделов*/
 .elements-container{

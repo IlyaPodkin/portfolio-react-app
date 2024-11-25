@@ -7,6 +7,7 @@ import ModalPage from "./components/ModalPage";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import "./styles/main.css";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ModalPage />
       <Skills/>
       <Education/>
+      <Contacts/>
     </div>
   );
 }
