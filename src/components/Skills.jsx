@@ -22,7 +22,7 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className="photo-container">
-                    <img src={MyPhoto} alt="Фото автора" />
+                    <img src={MyPhoto} className="avatar" alt="Фото автора" />
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className="photo-container">
-                    <img src={MyPhoto} alt="Фото автора" />
+                    <img src={MyPhoto} className="avatar" alt="Фото автора" />
                 </div>
             </div>
 
@@ -57,7 +57,7 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className="photo-container">
-                    <img src={MyPhoto} alt="Фото автора" />
+                    <img src={MyPhoto} className="avatar" alt="Фото автора" />
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className="photo-container">
-                    <img src={MyPhoto} alt="Фото автора" />
+                    <img src={MyPhoto} className="avatar" alt="Фото автора" />
                 </div>
             </div>
 
@@ -88,7 +88,7 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className="photo-container">
-                    <img src={MyPhoto} alt="Фото автора" />
+                    <img src={MyPhoto} className="avatar" alt="Фото автора" />
                 </div>
             </div>
 
@@ -104,7 +104,7 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className="photo-container">
-                    <img src={MyPhoto} alt="Фото автора" />
+                    <img src={MyPhoto} className="avatar" alt="Фото автора" />
                 </div>
             </div>
 

@@ -1,90 +1,12 @@
-/* Опыт работы */
-/* Обертка для сфер */
+/* логотипы университетов */
 
-.circle-container {
-    position: relative;
-    display: flex;
-    max-width: 1200px;
-    width: 80%;
-    height: auto;
-    margin: 50px;
-    background-color: none;
-    justify-content: space-between;
-  }
-  .circle{
-    display: flex;
-    margin: 20px 0px 20px 0px;
-    border: none;
-    transition: background-color 0.5s ease, transform 0.2s ease; 
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
-  }
-  .circle:active{
-    transform: scale(0.95);
-  }
-  .work-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-  }
-  .indefinite {
-    margin: 15px 0px 0px 40px;
-    text-align: center;
-    font-size: 80pt;
-    color: red;
-  }
-  /* Логотипы*/
-  .company {
-    width: 100%;
-    height: 100%;
-  }
-  #x5{
-    height: 60%;
-    align-self: center;
-  }
-  /* года работы */
-  .yaers-work{
-    color: rgb(255, 255, 255);
-    font-size: 18pt;
-    margin: 0px 0px 0px 12.5px;
-    font-weight: bold;
-  }
-  /* Анимация при наведении курсора на логотипы */
-  .detailed-information{
-    display: none;
-  }
-  .circle:hover{
-    .company{
-      display: none;
-    }
-    .indefinite{
-      display: none;
-    }
-    .detailed-information{
-      display: flex;
-      align-self: center;
-      font-family: "Montserrat", serif;
-      color: rgb(255, 255, 255);
-      font-size: 15pt;
-    }
-    background-color: rgba(207, 207, 207, 0.445);
-    transition: background-color 0.3s ease, transform 0.2s ease; 
-  }
-  .list-of-professions{
-    color: #ffffff;
-  }
-  .header-container{
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    margin: 70px 0 0 0;
-    font-size: large;
-  }
+#first-edication{
+ width: 200px;
+ height: 140px;
+ align-self: center;
+}
+#second-edication{
+  width: 115px;
+  height: 90px;
+  align-self: center;
+}

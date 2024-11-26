@@ -8,8 +8,8 @@ body {
     background-color: rgb(26, 26, 26);
     font-family: "Montserrat", serif;
 }
-.main
-{
+
+.main {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;

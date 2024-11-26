@@ -6,7 +6,7 @@ const Contacts = () => {
     return (
         <div className="footer-container">
             <div className="contacts-container">
-                <p className='private'>&copy; IlyaPodkin {new Date().getFullYear()}</p>
+                <p className="private">&copy; IlyaPodkin {new Date().getFullYear()}</p>
                 <span className="comment">Сделано с ❤️ и кодом</span>
                 <div className="link-contacts">
                     <a href="https://vk.com/id420496965" target="_blank" rel="noopener noreferrer" title="VK">
@@ -19,7 +19,7 @@ const Contacts = () => {
                         <FaLinkedin className="social-icon" />
                     </a>
                     <a href="https://spb.hh.ru/resume/27f7caf5ff09ceafda0039ed1f51547a79574c" target="_blank" rel="noopener noreferrer" title="HH.ru">
-                        <img className="social-icon" src={icon} alt="Логотип hh.ru" />
+                        <img className="social-icon" id="hh-ru" src={icon} alt="Логотип hh.ru" />
                     </a>
                     <a href="https://github.com/IlyaPodkin" target="_blank" rel="noopener noreferrer" title="GitHub">
                         <FaGithub className="social-icon" />

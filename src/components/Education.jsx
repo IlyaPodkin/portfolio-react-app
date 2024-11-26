@@ -8,11 +8,11 @@ import { useState } from "react";
 
 
 const Education = () => {
-
+    // Получение состояния наполнения контента модального окна (есть/пусто)
     const [isModalWindow, setIsModalWindow] = useState(false);
-    
+    // Получение состояния модального окна (открыто/закрыто)
     const [modalContent, setModalContent] = useState(null);
-    
+
     const openModalWindow = (content) => {
         setModalContent(content);
         setIsModalWindow(true);
@@ -30,7 +30,7 @@ const Education = () => {
                 <div className="work-container">
                     <span className="yaers-work">УдГУ</span>
                     <button className="circle" id="circle1" onClick={() => openModalWindow("firstEdication")}>
-                        <img className="company" src={FirstEdication} alt="Company 1" />
+                        <img className="company" id="first-edication" src={FirstEdication} alt="Company 1" />
                         <span className="detailed-information">Подробнее</span></button>
                     <ul className="list-of-professions">
                         <li>Среднее профессиональное образование</li>
@@ -40,14 +40,14 @@ const Education = () => {
                 <div className="work-container">
                     <span className="yaers-work">ИжГТУ</span>
                     <button className="circle" id="circle2" onClick={() => openModalWindow("secondEdication")}>
-                        <img className="company" id="x5" src={SecondEdication} alt="Company 2" />
+                        <img className="company" id="second-edication" src={SecondEdication} alt="Company 2" />
                         <span className="detailed-information">Подробнее</span></button>
                     <ul className="list-of-professions">
                         <li>Высшее образование</li>
                     </ul>
                 </div>
             </div>
-            <ModalPage isVisible={isModalWindow} closeModalWindow={closeModalWindow} modalContent={modalContent}/>
+            <ModalPage isVisible={isModalWindow} closeModalWindow={closeModalWindow} modalContent={modalContent} />
         </>
     );
 };

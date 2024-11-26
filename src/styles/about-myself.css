@@ -1,38 +1,41 @@
 /* Раздел о себе */
 
-.container-about-myself{
-    display: flex;
-    background-color: none;
-    width: 80%;
-    height: auto;
-    max-width: 1200px;
-    margin: 50px 0 0 0;
-    border-radius: 30px;
-    justify-content: space-between;
-    align-items: stretch;
-  }
-  /* конейнер с "обо мне"*/
-  
-  .basic-information{
-    flex-grow: 1;
-    border-radius: 20px;
-    margin: 0px 0px 0px 20px;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    box-sizing: content-box;
-    box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
-    align-content: center;
-  }
-  /* контейнер с фото */
-  .basic-img{
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
-  
-  }
-  img{
+.container-about-myself {
+  display: flex;
+  background-color: none;
+  width: 80%;
+  height: auto;
+  max-width: 1200px;
+  margin: 50px 0 0 0;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* конейнер с "обо мне"*/
+.basic-information {
+  flex-grow: 1;
+  border-radius: 20px;
+  margin: 0px 0px 0px 20px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: content-box;
+  box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
+  align-content: center;
+}
+
+/* контейнер с фото */
+.basic-img {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
+
+}
+
+/* Фото */
+.avatar {
   height: auto;
   border-radius: 20px;
   width: 250px;
-  }
+}

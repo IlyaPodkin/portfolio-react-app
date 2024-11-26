@@ -8,12 +8,13 @@ import SecondEdication from "./EdicationComponents/SecondEdication";
 
 const ModalPage = ({ isVisible, closeModalWindow, modalContent }) => {
 
+    //закрытие модального окна при клике на любую область  
     const handleOverlayClick = (event) => {
         if (event.target.className === "modal show") {
             closeModalWindow();
         }
     };
-
+    //Рендер контента в зависимости от выбора сферы
     const renderContent = () => {
         switch (modalContent) {
             case "bars":

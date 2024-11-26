@@ -40,3 +40,9 @@
 .photo-container{
     margin: 0px 20px 0px 20px;
 }
+/* Фото */
+.avatar{
+    height: auto;
+    border-radius: 20px;
+    width: 250px;
+}

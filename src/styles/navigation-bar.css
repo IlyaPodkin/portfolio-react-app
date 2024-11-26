@@ -1,3 +1,4 @@
+/* Контейнер кнопок навигации */
 .navigation-bar {
     flex-wrap: wrap;
     display: flex;
@@ -17,6 +18,7 @@
     z-index: 1;
 }
 
+/* кнопки навигации */
 .button-link {
     border: none;
     height: 40px;
@@ -38,11 +40,11 @@
     box-shadow: 1px 1px 10px 10px rgb(196, 196, 196);
     cursor: pointer;
 }
-
+/* анимация при наведении */
 .button-link:hover {
     background-color: rgb(0, 0, 0);
 }
-
+/* анимация при нажатии */
 .button-link:active {
     transform: scale(0.95);
 }

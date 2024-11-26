@@ -1,6 +1,15 @@
 /* Опыт работы */
+/* Заголовок */
+.header-container{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin: 70px 0 0 0;
+  font-size: large;
+}
 /* Обертка для сфер */
-
 .circle-container {
     position: relative;
     display: flex;
@@ -10,7 +19,16 @@
     margin: 50px;
     background-color: none;
     justify-content: space-between;
+    color: #ffffff;
   }
+  /* Контейнер для содержимого сфер и надписей */
+  .work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  /* сферы-кнопки*/
   .circle{
     display: flex;
     margin: 20px 0px 20px 0px;
@@ -22,24 +40,20 @@
     height: 150px;
     overflow: hidden;
     cursor: pointer;
+    justify-content: center;
     box-shadow: 1px 1px 10px 10px rgba(221, 221, 221, 0.2);
   }
+  /* анимация при нажатии */
   .circle:active{
     transform: scale(0.95);
   }
-  .work-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-  }
+  /* Контент внутри посленей кнопки-сферы */
   .indefinite {
-    margin: 15px 0px 0px 40px;
-    text-align: center;
+    align-self: center;
     font-size: 80pt;
     color: red;
   }
-  /* Логотипы*/
+  /* Логотипы */
   .company {
     width: 100%;
     height: 100%;
@@ -75,16 +89,4 @@
     }
     background-color: rgba(207, 207, 207, 0.445);
     transition: background-color 0.3s ease, transform 0.2s ease; 
-  }
-  .list-of-professions{
-    color: #ffffff;
-  }
-  .header-container{
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    margin: 70px 0 0 0;
-    font-size: large;
   }

@@ -14,7 +14,7 @@
   align-items: center;
   transition: opacity 0.3s, visibility 0.3s; /* Анимация появления */
 }
-
+/* вывод модального  окна при нажатии на кнопку-сферу */
 .modal.show {
   opacity: 1;
   visibility: visible;
@@ -41,6 +41,8 @@
   right: 10px;
   cursor: pointer;
 }
+
+/* анимация "крестика" */
 .close-btn:hover,
 .close-btn:focus {
   color: rgb(255, 255, 255);

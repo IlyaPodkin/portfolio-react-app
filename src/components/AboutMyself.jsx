@@ -6,7 +6,7 @@ const AboutMyself = () => {
     return (
         <div className="container-about-myself">
             <div className="basic-img">
-                <img src={MyPhoto} alt="Фотография автора" />
+                <img src={MyPhoto} className="avatar" alt="Фотография автора" />
             </div>
             <div className="basic-information">
                 <h2>Обо мне</h2>
