@@ -22,46 +22,48 @@ const PlacesOfWork = () => {
 
 
     return (
-        <>
+        <div className="experience-content-container" id="experience">
             <div className="header-container">
                 <h2>Опыт работы</h2>
             </div>
-            <div className="circle-container">
-                <div className="work-container">
-                    <span className="yaers-work">2022-2023</span>
-                    <button className="circle" id="circle1" onClick={() => openModalWindow("bars")}>
-                        <img className="company" src={Bars} alt="Company 1" />
-                        <span className="detailed-information">Подробнее</span>
-                    </button>
-                    <ul className="list-of-professions">
-                        <li>Техническая поддержка</li>
-                        <li>Специалист по сопровождению</li>
-                        <li>Product manager</li>
-                    </ul>
+            <div className="experience-container">
+                <div className="circle-container">
+                    <div className="work-container">
+                        <span className="yaers-work">2022-2023</span>
+                        <button className="circle" id="circle1" onClick={() => openModalWindow("bars")}>
+                            <img className="company" src={Bars} alt="Company 1" />
+                            <span className="detailed-information">Подробнее</span>
+                        </button>
+                        <ul className="list-of-professions">
+                            <li>Техническая поддержка</li>
+                            <li>Специалист по сопровождению</li>
+                            <li>Product manager</li>
+                        </ul>
+                    </div>
+                    <div className="work-container">
+                        <span className="yaers-work">2023-2024</span>
+                        <button className="circle" id="circle2" onClick={() => openModalWindow("x5")}>
+                            <img className="company" id="x5" src={X5Group} alt="Company 2" />
+                            <span className="detailed-information">Подробнее</span>
+                        </button>
+                        <ul className="list-of-professions">
+                            <li>Специалист по сопровождению</li>
+                        </ul>
+                    </div>
+                    <div className="work-container">
+                        <span className="yaers-work">????-????</span>
+                        <button className="circle" id="circle3" onClick={() => openModalWindow("unknown")}><span className="indefinite">?</span>
+                            <span className="detailed-information">Подробнее</span>
+                        </button>
+                        <ul className="list-of-professions">
+                            <li>C# developer</li>
+                            <li>full-stack developer (C#/JS)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="work-container">
-                    <span className="yaers-work">2023-2024</span>
-                    <button className="circle" id="circle2" onClick={() => openModalWindow("x5")}>
-                        <img className="company" id="x5" src={X5Group} alt="Company 2" />
-                        <span className="detailed-information">Подробнее</span>
-                    </button>
-                    <ul className="list-of-professions">
-                        <li>Специалист по сопровождению</li>
-                    </ul>
-                </div>
-                <div className="work-container">
-                    <span className="yaers-work">????-????</span>
-                    <button className="circle" id="circle3" onClick={() => openModalWindow("unknown")}><span className="indefinite">?</span>
-                        <span className="detailed-information">Подробнее</span>
-                    </button>
-                    <ul className="list-of-professions">
-                        <li>C# developer</li>
-                        <li>full-stack developer (C#/JS)</li>
-                    </ul>
-                </div>
+                <ModalPage isVisible={isModalWindow} closeModalWindow={closeModalWindow} modalContent={modalContent} />
             </div>
-            <ModalPage isVisible={isModalWindow} closeModalWindow={closeModalWindow} modalContent={modalContent} />
-        </>
+        </div>
     );
 }
 

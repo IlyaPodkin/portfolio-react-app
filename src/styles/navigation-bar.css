@@ -25,12 +25,12 @@
     width: auto;
     min-width: 100px;
     max-width: 150px;
-    text-align: center;
-    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     border-radius: 50px;
-    font-family: "Montserrat", serif;
     border-color: rgb(63, 63, 63);
     font-weight: 450;
     font-size: 9.5pt;
@@ -47,4 +47,7 @@
 /* анимация при нажатии */
 .button-link:active {
     transform: scale(0.95);
+}
+.active-link{
+    background-color: black;
 }

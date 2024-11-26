@@ -1,4 +1,10 @@
 /* Главный контейнер */
+.skills-content-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 .skills-container{
     width: 80%;
     max-width: 1200px;

@@ -1,11 +1,25 @@
-/* логотипы университетов */
-
-#first-edication{
- width: 200px;
- height: 140px;
- align-self: center;
+.education-content-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-#second-edication{
+
+.education-container {
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* логотипы университетов */
+#first-edication {
+  width: 200px;
+  height: 140px;
+  align-self: center;
+}
+
+#second-edication {
   width: 115px;
   height: 90px;
   align-self: center;

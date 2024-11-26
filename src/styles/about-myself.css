@@ -1,5 +1,10 @@
 /* Раздел о себе */
-
+.about-myself-content-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
 .container-about-myself {
   display: flex;
   background-color: none;

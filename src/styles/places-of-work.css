@@ -1,4 +1,18 @@
 /* Опыт работы */
+/* Главный контейнер */
+.experience-content-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* установка контента по центру */
+.experience-container{
+  width: 80%;
+  max-width: 1200px;  
+}
 /* Заголовок */
 .header-container{
   height: auto;
@@ -13,10 +27,8 @@
 .circle-container {
     position: relative;
     display: flex;
-    max-width: 1200px;
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin: 50px;
     background-color: none;
     justify-content: space-between;
     color: #ffffff;

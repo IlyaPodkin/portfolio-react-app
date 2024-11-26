@@ -4,7 +4,7 @@ import icon from "./../images/hh.jpg";
 import { FaVk, FaTelegram, FaLinkedin, FaGithub } from 'react-icons/fa'; // Иконки FontAwesome
 const Contacts = () => {
     return (
-        <div className="footer-container">
+        <div className="footer-container" id="contacts">
             <div className="contacts-container">
                 <p className="private">&copy; IlyaPodkin {new Date().getFullYear()}</p>
                 <span className="comment">Сделано с ❤️ и кодом</span>

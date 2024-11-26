@@ -22,33 +22,35 @@ const Education = () => {
     }
 
     return (
-        <>
+        <div className="education-content-container" id="education">
             <div className="header-container">
                 <h2>Образование</h2>
             </div>
-            <div className="circle-container">
-                <div className="work-container">
-                    <span className="yaers-work">УдГУ</span>
-                    <button className="circle" id="circle1" onClick={() => openModalWindow("firstEdication")}>
-                        <img className="company" id="first-edication" src={FirstEdication} alt="Company 1" />
-                        <span className="detailed-information">Подробнее</span></button>
-                    <ul className="list-of-professions">
-                        <li>Среднее профессиональное образование</li>
-                        <li>Какой-то там сертификат</li>
-                    </ul>
+            <div className="education-container">
+                <div className="circle-container">
+                    <div className="work-container">
+                        <span className="yaers-work">УдГУ</span>
+                        <button className="circle" id="circle1" onClick={() => openModalWindow("firstEdication")}>
+                            <img className="company" id="first-edication" src={FirstEdication} alt="Company 1" />
+                            <span className="detailed-information">Подробнее</span></button>
+                        <ul className="list-of-professions">
+                            <li>Среднее профессиональное образование</li>
+                            <li>Какой-то там сертификат</li>
+                        </ul>
+                    </div>
+                    <div className="work-container">
+                        <span className="yaers-work">ИжГТУ</span>
+                        <button className="circle" id="circle2" onClick={() => openModalWindow("secondEdication")}>
+                            <img className="company" id="second-edication" src={SecondEdication} alt="Company 2" />
+                            <span className="detailed-information">Подробнее</span></button>
+                        <ul className="list-of-professions">
+                            <li>Высшее образование</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="work-container">
-                    <span className="yaers-work">ИжГТУ</span>
-                    <button className="circle" id="circle2" onClick={() => openModalWindow("secondEdication")}>
-                        <img className="company" id="second-edication" src={SecondEdication} alt="Company 2" />
-                        <span className="detailed-information">Подробнее</span></button>
-                    <ul className="list-of-professions">
-                        <li>Высшее образование</li>
-                    </ul>
-                </div>
+                <ModalPage isVisible={isModalWindow} closeModalWindow={closeModalWindow} modalContent={modalContent} />
             </div>
-            <ModalPage isVisible={isModalWindow} closeModalWindow={closeModalWindow} modalContent={modalContent} />
-        </>
+        </div>
     );
 };
 
